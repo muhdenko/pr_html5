@@ -3,7 +3,35 @@ body {
     font-size: 12px;
     background:ivory;
 }
-
-p {
-    color:  dodgerblue;
+header {
+    display: block;
+    background: #00B0D8 url('http://img1.liveinternet.ru/images/attach/b/4/112/890/112890783_4923331_336328_svet_pereliv_luchi_avrora_2560x1600_www_GdeFon_ru.jpg') repeat-x;
+}
+aside {
+    background: #f0f0f0;
+    padding: 10px;
+    width: 200px;
+    float: right;
+}
+article {
+    display: block;
+    text-align: justify;
+}
+figure {
+    padding: 10px;
+    display: block;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 0 10px 10px 0;
+}
+figcaption {
+    color: #fff;
+}
+footer{
+    display:block;
+    position:relative;
+    clear:both;
+    bottom:-230px;
+    text-align:center;
 }
