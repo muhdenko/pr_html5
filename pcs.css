@@ -1,37 +1,52 @@
-body {
-    font-family: Arial,sans-serif;
-    font-size: 12px;
-    background:ivory;
+body{
+    background:#E6E6FA;
+    margin:0;
+    font-family: Calibri, sans-serif;
 }
+
 header {
-    display: block;
-    background: #00B0D8 url('http://img1.liveinternet.ru/images/attach/b/4/112/890/112890783_4923331_336328_svet_pereliv_luchi_avrora_2560x1600_www_GdeFon_ru.jpg') repeat-x;
+   display: block;
+    height: 120px;
+    background:url('http://storage1.static.itmages.ru/i/15/0730/h_1438263650_6892619_2a1adc2910.png') repeat-x center bottom, linear-gradient(180deg,#7B68EE, #E6E6FA);
 }
-aside {
-    background: #f0f0f0;
-    padding: 10px;
-    width: 200px;
-    float: right;
-}
-article {
-    display: block;
-    text-align: justify;
-}
-figure {
-    padding: 10px;
-    display: block;
-    width: 150px;
-    height: 150px;
-    float: left;
-    margin: 0 10px 10px 0;
-}
-figcaption {
-    color: #fff;
-}
-footer{
+
+.content{
     display:block;
+    margin-left:125px;
+    width:80%;
+    height:500px;
+    background:#FFE4B5;
+    border:2px #FFEFD5 outset;
+}
+h1{
+    text-align: center;
+    font-size:20px;
+    color:#E9967A;
+}
+li{
+    color:#B22222;
+    font-size: 16px;
+    line-height:30pt;
+    list-style-type:circle;
+}
+.content img{
     position:relative;
-    clear:both;
-    bottom:-230px;
+    bottom:130px;
+    left:850px;
+}
+footer {
+    background:linear-gradient(210deg,#E0FFFF, #B0C4DE);
+    overflow: auto;
+    position: relative;
+    display: block;
+}
+.footer-bg {
+    width: 740px;
+    padding: 0 10px 10px;
+    margin: auto;
+    color: #526118;
+}
+.footer-bg p {
     text-align:center;
+   padding-bottom: 10px;
 }
