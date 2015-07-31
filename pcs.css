@@ -2,6 +2,7 @@ body{
     background:#E6E6FA;
     margin:0;
     font-family: Calibri, sans-serif;
+    height:100%;
 }
 
 header {
@@ -12,11 +13,12 @@ header {
 
 .content{
     display:block;
-    margin-left:125px;
+    margin-left:165px;
     width:80%;
-    height:500px;
-    background:#FFE4B5;
-    border:2px #FFEFD5 outset;
+    height:400px;
+    background:#D8BFD8;
+    border:2px 	#9370DB outset;
+    padding-bottom: 100px;
 }
 h1{
     text-align: center;
@@ -36,17 +38,59 @@ li{
 }
 footer {
     background:linear-gradient(210deg,#E0FFFF, #B0C4DE);
-    overflow: auto;
-    position: relative;
-    display: block;
+    height: 50px;
 }
-.footer-bg {
-    width: 740px;
-    padding: 0 10px 10px;
-    margin: auto;
-    color: #526118;
-}
-.footer-bg p {
+ footer p {
     text-align:center;
-   padding-bottom: 10px;
+   padding: 10px 0 10px 0;
 }
+ .imgcat{
+     display:inline-block;
+     text-align:center;
+     margin-left:100px;
+ }
+ .imgcat img{
+     width:200px;
+     height:200px;
+     margin:20px;
+     border: 2px groove #5C5CE6;
+     border-radius: 15%;
+     box-shadow: 10px 10px 8px #352247;
+ }
+
+ .menu li{
+     list-style:none;
+ }
+.menu li a{
+    text-decoration:none;
+    color:#1F1F4C;
+}
+.menu>li{
+    position:relative;
+}
+
+.menu .nav{
+    display:none;
+}
+.menu>li:hover .nav{
+    display:block;
+}
+.menu:not(.nav) {
+       margin-left:10px;
+   }
+ .menu, .nav li{
+    width:130px;
+    height:45px;
+    background:#9494FF url('http://storage2.static.itmages.ru/i/15/0731/h_1438351517_9378257_b9fbc181dc.png')no-repeat 90px -3px;
+    border:3px ridge #5C5CE6;
+    border-radius:20%;
+    float:left;
+    color:#1F1F4C;
+    padding: 7px 0 0 10px;
+    margin-left:-50px;
+     font-weight:bold;
+}
+.nav a:hover{
+    color:#2447B2;
+}
+
