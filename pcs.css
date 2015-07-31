@@ -11,7 +11,7 @@ header {
     background:url('http://storage1.static.itmages.ru/i/15/0730/h_1438263650_6892619_2a1adc2910.png') repeat-x center bottom, linear-gradient(180deg,#7B68EE, #E6E6FA);
 }
 
-.content{
+.content, .contentt{
     display:block;
     margin-left:165px;
     width:80%;
@@ -19,6 +19,9 @@ header {
     background:#D8BFD8;
     border:2px 	#9370DB outset;
     padding-bottom: 100px;
+}
+.contentt{
+    height:auto;
 }
 h1{
     text-align: center;
@@ -44,11 +47,20 @@ footer {
     text-align:center;
    padding: 10px 0 10px 0;
 }
- .imgcat{
-     display:inline-block;
-     text-align:center;
-     margin-left:100px;
+ footer img{
+     width:200px;
+     height:45px;
+     margin-left:50px;
+     opacity: 0.4 ;
  }
+ footer img:hover{
+     opacity: 1.0 ;
+ }
+.imgcat{
+     display:inline-block;
+     margin-left:80px;
+ }
+
  .imgcat img{
      width:200px;
      height:200px;
@@ -57,7 +69,10 @@ footer {
      border-radius: 15%;
      box-shadow: 10px 10px 8px #352247;
  }
-
+.contentt .imgcat{
+    margin-left:40px;
+    margin-top:30px;
+}
  .menu li{
      list-style:none;
  }
