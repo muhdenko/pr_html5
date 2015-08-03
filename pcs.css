@@ -108,4 +108,72 @@ footer {
 .nav a:hover{
     color:#2447B2;
 }
+.inf{
+    display:inline-block;
+    float:left;
+    margin-right:30px;
+}
 
+h3{
+    padding-left: 10px;
+    color:#660080;
+}
+h4{
+    color:#660080;
+}
+p{
+    padding-left:5px;
+    color:#FA8072;
+}
+.tel{
+    display:inline-block;
+    margin:25px 0 0 40px;
+}
+span{
+    font-family:Verdana, sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    color:#7519D1;
+    line-height:24pt;
+}
+.mail{
+    display:inline-block;
+    margin-left:60px;
+}
+.mail img{
+    width:200px;
+}
+.imgg {
+    display:inline-block;
+    margin-left:40px;
+}
+.imgg img{
+    width:400px;
+}
+.otzimg{
+    border: 2px groove #5C5CE6;
+    border-radius: 15%;
+    box-shadow: 10px 10px 8px #352247;
+    margin:10px;
+    float:left;
+}
+.otz{
+    font-size:40px;
+    color:#4B0082;
+    font-weight:bold;
+}
+.otzfor{
+    display:inline-block;
+    padding-left:30px;
+}
+label{
+    color:#663399;
+    font-size:20px;
+    padding-left:20px;
+}
+
+input[type="submit"] {
+    background:#DDA0DD;
+    width:100px;
+    height:30px;
+}
